@@ -1,0 +1,11 @@
+.vBarChart {
+    margin: 10px 10px 20px 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #e1e1e1;
+    border-bottom-style: solid;
+}
+
+.c3-tooltip,
+.c3-tooltip th {
+    color: black;
+}

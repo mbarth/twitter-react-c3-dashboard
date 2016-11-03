@@ -1,0 +1,37 @@
+.Footer_root {
+    background: #333;
+    color: #fff;
+}
+
+.Footer_container {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.Footer_text {
+    color: rgba(255, 255, 255, .5);
+}
+
+.Footer_textMuted {
+    color: rgba(255, 255, 255, .3);
+}
+
+.Footer_spacer {
+    color: rgba(255, 255, 255, .3);
+}
+
+.Footer_text, .Footer_link {
+    padding: 2px 5px;
+    font-size: 1em;
+}
+
+.Footer_link, .Footer_link:active, .Footer_link:visited {
+    color: rgba(255, 255, 255, .6);
+    text-decoration: none;
+}
+
+.Footer_link:hover {
+    color: rgba(255, 255, 255, 1);
+}
