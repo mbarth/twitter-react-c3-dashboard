@@ -17,6 +17,9 @@ const HashtagBarChart = React.createClass({
             size: {
                 height: 350
             },
+            padding: {
+                bottom: 10
+            },
             data: {
                 x: 'x',
                 columns: [[]],

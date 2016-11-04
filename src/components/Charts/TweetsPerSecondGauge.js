@@ -42,6 +42,9 @@ const TweetsPerSecondGauge = React.createClass({
                         return value;
                     }
                 }
+            },
+            padding: {
+                bottom: 10
             }
         });
     },
