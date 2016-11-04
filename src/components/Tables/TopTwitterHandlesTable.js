@@ -22,7 +22,7 @@ class TopTwitterHandlesTable extends React.Component {
 
     render() {
         return (
-            <div className="row">
+            <div>
                 <h4 className="sub-header">Top Twitter Users</h4>
                 <div className="twitter">
                     <table className="table table-striped table-bordered" id="twitter-users">
