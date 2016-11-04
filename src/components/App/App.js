@@ -13,9 +13,11 @@ import Footer from '../Footer/Footer';
 class App extends Component {
     render() {
         return (
-            <div className="App">
-                <Header />
-                <div className="grey-underline"><FilterTwitterCount /></div>
+            <div className="App container-full">
+                <div className="row">
+                    <Header />
+                </div>
+                <div className="row grey-underline"><FilterTwitterCount /></div>
                 <div className="row grey-underline">
                     <div className="col-md-6">
                         <TwitterMoodPieChart />
@@ -32,8 +34,12 @@ class App extends Component {
                         <HashtagBarChart />
                     </div>
                 </div>
-                <TopTwitterHandlesTable />
-                <Footer />
+                <div className="row">
+                    <TopTwitterHandlesTable />
+                </div>
+                <div className="row">
+                    <Footer />
+                </div>
             </div>
         );
     }
