@@ -18,7 +18,8 @@ const TwitterMoodPieChart = React.createClass({
                 }
             },
             size: {
-                height: 250
+                height: 200,
+                width: 350
             },
             title: {
                 text: 'Tweet Sentiment'
@@ -41,7 +42,7 @@ const TwitterMoodPieChart = React.createClass({
     },
     render: function () {
         return (
-            <div className="pie-chart" id="piechart">
+            <div id="piechart">
                 {/*TODO extract to config file*/}
                 <Websocket url='ws://localhost:9002'
                            onMessage={this.processData}

@@ -29,7 +29,8 @@ const TweetsPerSecondGauge = React.createClass({
                 }
             },
             size: {
-                height: 180
+                height: 200,
+                width: 350
             },
             title: {
                 text: 'Tweet Frequency'
@@ -61,7 +62,7 @@ const TweetsPerSecondGauge = React.createClass({
     },
     render: function () {
         return (
-            <div className="gauge-chart" id="gauge">
+            <div id="gauge">
                 <Websocket url='ws://localhost:9005' onMessage={this.handleData} reconnect={true}/>
             </div>
         )

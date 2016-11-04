@@ -15,7 +15,7 @@ const HashtagBarChart = React.createClass({
                 text: 'Trending Hashtags'
             },
             size: {
-                height: 350
+                height: 400
             },
             padding: {
                 bottom: 10
@@ -93,7 +93,7 @@ const HashtagBarChart = React.createClass({
     },
     render: function () {
         return (
-            <div className="hBarChart" id="horizontal-bar-chart">
+            <div id="horizontal-bar-chart">
                 {/*TODO extract to config file*/}
                 <Websocket url='ws://localhost:9003'
                            onMessage={this.processData}

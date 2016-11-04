@@ -98,7 +98,7 @@ const DeviceBarChart = React.createClass({
     },
     render: function () {
         return (
-            <div className="vBarChart" id="bar-chart">
+            <div id="bar-chart">
                 {/*TODO extract to config file*/}
                 <Websocket url='ws://localhost:9004'
                            onMessage={this.processData}
